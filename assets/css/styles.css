@@ -293,3 +293,53 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+.img-thumbnail {
+	border: none;
+}
+
+.badge1 {
+	color: #fff;
+	background-color: #007eb6;
+}
+
+.badge2 {
+	color: #fff;
+	background-color: #cb3132;
+}
+
+.badge3 {
+	color: #fff;
+	background-color: #777bb3;
+}
+
+.badge4 {
+	color: #fff;
+	background-color: #d5ad42;
+}
+
+.email {
+	font-size: 12px;
+}
+
+.phone {
+	font-size: 15px;
+}
+
+.linkedin {
+	font-size: 13px;
+}
+
+.img-gray {
+	filter: gray;
+	/* IE6-9 */
+	-webkit-filter: grayscale(1);
+	/* Google Chrome, Safari 6+ & Opera 15+ */
+	filter: grayscale(1);
+	/* Microsoft Edge and Firefox 35+ */
+}
+
+img:hover {
+	-webkit-filter: grayscale(0);
+	filter: none;
+}
